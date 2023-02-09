@@ -59,7 +59,7 @@ const NavLinks = (props) => {
       </li>
       <li className={classes.signup}>
         <NavLink
-          to="/"
+          to="/signUp"
           onClick={closeNav}
           className={({ isActive }) => (isActive ? classes.active : undefined)}
         >
