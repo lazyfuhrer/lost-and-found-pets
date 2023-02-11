@@ -20,7 +20,7 @@ const SignUp = () => {
   return (
     <div style={{ display: "flex", justifyContent: "center", height: "100vh"}}>
       <div>
-        <img src={image}></img>
+        <img src={image} style={{ width: "628px", height: "468px"}}></img>
       </div>
       <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh", zIndex: "1000" }}>
         <div style={{ backgroundColor: "white", padding: "30px", borderRadius: "10px" }}>
